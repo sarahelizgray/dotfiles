@@ -86,7 +86,7 @@ export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
 
 # RVM 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" 
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # This loads RVM into a shell session.
 
 # MANAGING HISTORY
 setopt hist_ignore_dups share_history inc_append_history extended_history
