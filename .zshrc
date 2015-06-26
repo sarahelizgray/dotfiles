@@ -94,7 +94,7 @@ HISTSIZE=500000
 SAVEHIST=5000000
 
 # ALIASES
-alias subl="open -a Sublime\ Text\ 2"
+alias subl="open -a Sublime\ Text"
 alias xcode="open -a xcode"
 alias mate="open -a textmate"
 alias github="open -a github"
