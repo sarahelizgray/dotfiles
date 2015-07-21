@@ -95,6 +95,7 @@ SAVEHIST=5000000
 
 # ALIASES
 alias subl="open -a Sublime\ Text"
+alias subl2="open -a Sublime\ Text\ 2"
 alias xcode="open -a xcode"
 alias mate="open -a textmate"
 alias github="open -a github"
@@ -102,6 +103,7 @@ alias xcode="open -a xcode"
 alias bi='bundle install'
 alias bx='bundle exec'
 alias gg="git grep --color"
+alias json="python -m json.tool"
 
 #RELOAD SSH KEYS
 alias reload_github='ssh-add ~/.ssh/id_rsa'
