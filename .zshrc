@@ -108,8 +108,13 @@ alias json="python -m json.tool"
 #RELOAD SSH KEYS
 alias reload_github='ssh-add ~/.ssh/id_rsa'
 
+#SUPPORT THE UNICODE
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+
 #EDITORS
 EDITOR=vi; export EDITOR
 GIT_EDITOR=vi; export GIT_EDITOR
+
 
  
